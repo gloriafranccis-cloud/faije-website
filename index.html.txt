@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAIJE | Official Profile</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Official profile of FAIJE — Model, Entrepreneur, Logistics Professional, Founder of A.F.T Fashion Team and Co-founder of Xora Modeling Company." />
+  <meta name="keywords" content="FAIJE, model, entrepreneur, logistics professional, AFT Fashion Team, Xora Modeling Company, Chennai model, fashion founder" />
+  <meta name="author" content="FAIJE" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- FIX 1: Added canonical link (update URL to real domain when hosted) -->
+  <link rel="canonical" href="https://yourwebsite.com/" />
+
+  <!-- FIX 2: OG tags — og:image and og:url now use full URLs -->
+  <meta property="og:title" content="FAIJE | Official Profile" />
+  <meta property="og:description" content="Model, Entrepreneur, Logistics Professional, Founder of A.F.T Fashion Team and Co-founder of Xora Modeling Company." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourwebsite.com/" />
+  <meta property="og:image" content="https://yourwebsite.com/images/hero.jpg" />
+
+  <!-- FIX 3: Favicon added -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "FAIJE",
+    "jobTitle": "Model, Entrepreneur, Logistics Professional",
+    "description": "FAIJE is a Chennai-based model, entrepreneur, and logistics professional with a growing identity in fashion, business, and public presence.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "India"
+    },
+    "sameAs": [
+      "https://www.instagram.com/_faije__/"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <!-- FIX 4: Brand link now points to #hero instead of bare # -->
+    <a href="#hero" class="brand">FAIJE</a>
+
+    <!-- FIX 5: Hamburger button now has full accessibility attributes -->
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="navLinks"
+    >☰</button>
+
+    <!-- FIX 6: Nav has an aria-label for screen readers -->
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#identity">Identity</a>
+      <a href="#ventures">Ventures</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#recognition">Recognition</a>
+      <a href="#contact">Connect</a>
+    </nav>
+  </header>
+
+  <!-- FIX 7: All sections wrapped in <main> for accessibility and SEO -->
+  <main>
+
+    <!-- HERO -->
+    <!-- FIX 8: Hero section now has id="hero" -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+        <p class="hero-tag">Official Profile</p>
+        <h1>FAIJE</h1>
+        <p class="hero-role">Model • Entrepreneur • Logistics Professional</p>
+        <p class="hero-text">
+          A Chennai-based professional shaping a presence across fashion, entrepreneurship, and logistics — defined by style, discipline, ambition, and a strong creative identity.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-gold">View Profile</a>
+          <!-- FIX 9: rel="noopener noreferrer" added to all target="_blank" links -->
+          <a href="https://www.instagram.com/_faije__/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Instagram</a>
+        </div>
+      </div>
+
+      <div class="hero-bottom-card reveal">
+        <div class="hero-stat">
+          <span>Base</span>
+          <strong>Chennai, Tamil Nadu</strong>
+        </div>
+        <div class="hero-stat">
+          <span>Focus</span>
+          <strong>Fashion, Business & Public Presence</strong>
+        </div>
+        <div class="hero-stat">
+          <span>Roles</span>
+          <strong>Model • Founder • Professional</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <span class="section-tag">About</span>
+        <h2>The Presence Behind the Name</h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-card reveal">
+          <p>
+            FAIJE is a <strong>model, entrepreneur, and logistics professional</strong> based in Chennai, Tamil Nadu, with a growing presence in fashion, creative ventures, and public identity. His profile is built on visual confidence, professional discipline, and a mindset shaped by ambition and long-term vision.
+          </p>
+          <p>
+            With a <strong>Master's in Logistics</strong> and a professional connection to the logistics field, he brings structure, consistency, and focus into the work he does. Alongside that, his journey in fashion reflects a bold and expressive side rooted in runway presence, personal branding, and strong visual storytelling.
+          </p>
+          <p>
+            Rather than staying in one lane, FAIJE represents a multi-dimensional profile — balancing professional growth, entrepreneurial direction, and a distinct fashion identity with confidence and purpose.
+          </p>
+        </div>
+
+        <div class="info-card reveal">
+          <h3>Profile Snapshot</h3>
+          <ul>
+            <li><strong>Name:</strong> FAIJE</li>
+            <li><strong>Based in:</strong> Chennai, Tamil Nadu, India</li>
+            <li><strong>Roles:</strong> Model, Entrepreneur, Logistics Professional</li>
+            <li><strong>Education:</strong> Master's in Logistics</li>
+            <li><strong>Founder of:</strong> A.F.T Fashion Team</li>
+            <li><strong>Co-founder of:</strong> Xora Modeling Company</li>
+            <li><strong>Instagram:</strong> @_faije__</li>
+            <li><strong>Email:</strong> Mohamedfaije678@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- IDENTITY -->
+    <section class="section dark-section" id="identity">
+      <div class="section-heading reveal">
+        <span class="section-tag">Identity</span>
+        <h2>A Personal Brand Built on Presence</h2>
+      </div>
+
+      <div class="identity-grid">
+        <div class="identity-card reveal">
+          <h3>Visual Identity</h3>
+          <p>
+            FAIJE's image leans into bold fashion storytelling, elevated styling, strong stage presence, and a look that feels sharp, cinematic, and memorable.
+          </p>
+        </div>
+
+        <div class="identity-card reveal">
+          <h3>Entrepreneurial Direction</h3>
+          <p>
+            Beyond modeling, his journey extends into building ventures, shaping creative spaces, and developing a public identity rooted in leadership and ambition.
+          </p>
+        </div>
+
+        <div class="identity-card reveal">
+          <h3>Professional Discipline</h3>
+          <p>
+            Backed by a logistics background and a structured professional mindset, FAIJE brings consistency, focus, and long-term thinking into every space he enters.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VENTURES -->
+    <section class="section" id="ventures">
+      <div class="section-heading  reveal">
+        <span class="section-tag">Ventures</span>
+        <h2>Creative & Professional Ventures</h2>
+      </div>
+
+      <div class="venture-grid">
+        <article class="venture-card reveal">
+          <h3>Model</h3>
+          <p>
+            Building a distinct runway and fashion identity through expressive looks, editorial presence, and confident styling.
+          </p>
+        </article>
+
+        <article class="venture-card reveal">
+          <h3>Entrepreneur</h3>
+          <p>
+            Expanding beyond image into creative leadership, venture-building, and long-term personal brand development.
+          </p>
+        </article>
+
+        <article class="venture-card reveal">
+          <h3>Logistics Professional</h3>
+          <p>
+            Professionally connected to the logistics field, with an academic foundation and a disciplined approach to work and growth.
+          </p>
+        </article>
+
+        <article class="venture-card reveal">
+          <h3>A.F.T Fashion Team</h3>
+          <p>
+            Founder of <strong>A.F.T Fashion Team</strong>, reflecting his involvement in fashion-led collaboration, creative direction, and team-building.
+          </p>
+        </article>
+
+        <article class="venture-card reveal">
+          <h3>Xora Modeling Company</h3>
+          <p>
+            Co-founder of <strong>Xora Modeling Company</strong>, contributing to the entrepreneurial and creative side of the modeling space.
+          </p>
+        </article>
+
+        <article class="venture-card reveal">
+          <h3>Public Presence</h3>
+          <p>
+            A profile shaped by fashion, presentation, confidence, and the drive to build a lasting presence across multiple fields.
+          </p>
+        </article>
+      </div>
+    </section>
+
+<div class="reveal">
+  <h1>My Website</h1>
+</div>
+
+    <!-- GALLERY -->
+    <section class="section dark-section" id="gallery">
+      <div class="section-heading reveal">
+        <span class="section-tag">Gallery</span>
+        <h2>Runway, Fashion & Presence</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- FIX 10: All images now have loading="lazy", width, and height for better performance -->
+        <div class="gallery-item large reveal">
+          <img
+            src="images/gallery1.jpg"
+            alt="FAIJE in a fashion editorial look."
+            loading="lazy"
+            width="800"
+            height="600"
+          />
+        </div>
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery2.jpg"
+            alt="FAIJE in a runway or public appearance moment."
+            loading="lazy"
+            width="600"
+            height="600"
+          />
+        </div>
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery3.jpg"
+            alt="FAIJE in a fashion and recognition moment."
+            loading="lazy"
+            width="600"
+            height="600"
+          />
+        </div>
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery4.jpg"
+            alt="FAIJE in a bold styling concept."
+            loading="lazy"
+            width="600"
+            height="600"
+          />
+        </div>
+        <div class="gallery-item wide reveal">
+          <img
+            src="images/gallery5.jpg"
+            alt="FAIJE portrait and fashion presence."
+            loading="lazy"
+            width="1200"
+            height="600"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- RECOGNITION -->
+    <section class="section" id="recognition">
+      <div class="section-heading reveal">
+        <span class="section-tag">Recognition</span>
+        <h2>Milestones & Public Highlights</h2>
+      </div>
+
+      <div class="recognition-layout">
+        <div class="recognition-text reveal">
+          <p>
+            FAIJE's profile reflects more than style alone. It represents a journey shaped by fashion, entrepreneurship, leadership, and a commitment to building a recognizable public identity with purpose and consistency.
+          </p>
+
+          <div class="recognition-points">
+            <div class="point-card">
+              <h4>Fashion Presence</h4>
+              <p>Known for confident styling, public-facing visuals, and a strong fashion-led image.</p>
+            </div>
+            <div class="point-card">
+              <h4>Founder & Co-founder Roles</h4>
+              <p>Connected to fashion ventures through A.F.T Fashion Team and Xora Modeling Company.</p>
+            </div>
+            <div class="point-card">
+              <h4>Professional Range</h4>
+              <p>Balances fashion, entrepreneurship, and logistics through a multi-dimensional career path.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recognition-image reveal">
+          <img
+            src="images/award.jpg"
+            alt="Recognition and public achievement associated with FAIJE."
+            loading="lazy"
+            width="600"
+            height="700"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="section-heading center reveal">
+        <span class="section-tag">Connect</span>
+        <h2>Connect with FAIJE</h2>
+      </div>
+
+      <p class="contact-text reveal">
+        For public profile access, fashion presence, collaborations, or professional communication, connect through Instagram or email.
+      </p>
+
+      <div class="contact-buttons reveal">
+        <!-- FIX 11: rel="noopener noreferrer" added here too -->
+        <a
+          href="https://www.instagram.com/_faije__/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-button"
+        >
+          Visit Instagram @_faije__
+        </a>
+
+        <a href="mailto:Mohamedfaije678@gmail.com" class="instagram-button">
+          Email FAIJE
+        </a>
+      </div>
+
+      <p class="contact-email reveal">Mohamedfaije678@gmail.com</p>
+    </section>
+
+  </main>
+  <!-- End of <main> -->
+
+  <footer class="footer">
+    <p>© 2026 FAIJE. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
